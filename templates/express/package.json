@@ -1,0 +1,33 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Base project with Express and modern Node.js setup",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "test": "node --test"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api",
+    "backend",
+    "esm"
+  ],
+  "author": "Gabriel Alberini",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "express": "latest",
+    "cors": "latest",
+    "dotenv": "latest"
+  }
+}
